@@ -7,14 +7,14 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: k8s-multi.com
+  commonName: kubernetespirates.tk
   dnsNames:
-    - k8srockzs.tk
-    - www.k8srockzs.tk
+    - kubernetespirates.tk
+    - www.kubernetespirates.tk
   acme:
     config:
       - http01:
           ingressClass: nginx
         domains:
-          - k8srockzs.tk
-          - www.k8srockzs.tk
+          - kubernetespirates.tk
+          - www.kubernetespirates.tk
